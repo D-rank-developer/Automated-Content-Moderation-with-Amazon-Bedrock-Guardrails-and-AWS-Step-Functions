@@ -250,7 +250,7 @@ Logs are sent to CloudWatch using:
 logs.put_log_events(...)
 ```
 
-![](https://github.com/D-rank-developer/Automated-Content-Moderation-with-Amazon-Bedrock-Guardrails-and-AWS-Step-Functions/blob/98a4018117e25bf83641b7ba3461949258f23c1f/screenshot/image1.png)
+![cccc](https://github.com/D-rank-developer/Automated-Content-Moderation-with-Amazon-Bedrock-Guardrails-and-AWS-Step-Functions/blob/98a4018117e25bf83641b7ba3461949258f23c1f/screenshot/image1.png)
 
 ---
 
