@@ -39,11 +39,10 @@ The project demonstrates **cloud security architecture, serverless computing, au
 
 # Architecture
 
-```
-![Cloudwatch](https://github.com/D-rank-developer/Automated-Content-Moderation-with-Amazon-Bedrock-Guardrails-and-AWS-Step-Functions/blob/d2daf2fa0c5d0fcc4c109bcbfb3eb01e10d61bb0/AWS.png)
-```
 
----
+![Cloudwatch](https://github.com/D-rank-developer/Automated-Content-Moderation-with-Amazon-Bedrock-Guardrails-and-AWS-Step-Functions/blob/d2daf2fa0c5d0fcc4c109bcbfb3eb01e10d61bb0/AWS.png)
+
+
 
 # Key AWS Services Used
 
@@ -396,30 +395,13 @@ Navigate to:
 CloudWatch → Alarms
 ```
 
+
 Monitor triggered moderation alerts.
 
 ---
 
-# Example Repository Structure
 
-```
-project/
-│
-├── terraform/
-│   ├── main.tf
-│   ├── versions.tf
-│   └── outputs.tf
-│
-├── lambda/
-│   └── moderate.py
-│
-├── monitoring/
-│   └── generate_logs.py
-│
-└── README.md
-```
 
----
 
 # Skills Demonstrated
 
