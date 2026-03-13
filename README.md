@@ -40,31 +40,7 @@ The project demonstrates **cloud security architecture, serverless computing, au
 # Architecture
 
 ```
-User Upload
-      │
-      ▼
-   Amazon S3
-      │
-      ▼
- EventBridge Trigger
-      │
-      ▼
- AWS Lambda Moderation Engine
-      │
-      ├── Amazon Bedrock Guardrails (Text Moderation)
-      ├── Amazon Rekognition (Image Moderation)
-      │
-      ▼
- Amazon DynamoDB (Results Storage)
-      │
-      ▼
- Amazon SNS (Alerting)
-      │
-      ▼
- CloudWatch Logs + Metrics
-      │
-      ▼
- CloudWatch Alarms
+![Cloudwatch](https://github.com/D-rank-developer/Automated-Content-Moderation-with-Amazon-Bedrock-Guardrails-and-AWS-Step-Functions/blob/d2daf2fa0c5d0fcc4c109bcbfb3eb01e10d61bb0/AWS.png)
 ```
 
 ---
