@@ -250,7 +250,7 @@ Logs are sent to CloudWatch using:
 logs.put_log_events(...)
 ```
 
-
+![](https://github.com/D-rank-developer/Automated-Content-Moderation-with-Amazon-Bedrock-Guardrails-and-AWS-Step-Functions/blob/98a4018117e25bf83641b7ba3461949258f23c1f/screenshot/image1.png)
 
 ---
 
@@ -297,6 +297,7 @@ Chat moderation detected profanity
 ```
 
 When thresholds are exceeded, alarms trigger alerts.
+![](https://github.com/D-rank-developer/Automated-Content-Moderation-with-Amazon-Bedrock-Guardrails-and-AWS-Step-Functions/blob/98a4018117e25bf83641b7ba3461949258f23c1f/screenshot/image2.png)
 
 ---
 
@@ -317,6 +318,7 @@ CloudWatch logs activity
       ↓
 Alarms trigger on suspicious behavior
 ```
+![](https://github.com/D-rank-developer/Automated-Content-Moderation-with-Amazon-Bedrock-Guardrails-and-AWS-Step-Functions/blob/98a4018117e25bf83641b7ba3461949258f23c1f/screenshot/image3.png)
 
 ---
 
@@ -364,7 +366,7 @@ abuse.txt
 safe.txt
 alarm-test.txt
 ```
-
+![](https://github.com/D-rank-developer/Automated-Content-Moderation-with-Amazon-Bedrock-Guardrails-and-AWS-Step-Functions/blob/98a4018117e25bf83641b7ba3461949258f23c1f/screenshot/image4.png)
 The Lambda function automatically moderates the files.
 
 ---
@@ -384,7 +386,7 @@ python generate_logs.py
 ```
 
 This generates logs for monitoring and alarm testing.
-
+![](https://github.com/D-rank-developer/Automated-Content-Moderation-with-Amazon-Bedrock-Guardrails-and-AWS-Step-Functions/blob/98a4018117e25bf83641b7ba3461949258f23c1f/screenshot/image5.png)
 ---
 
 ### 5️⃣ View Alerts
