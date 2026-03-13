@@ -1,0 +1,31 @@
+{
+  "widgets": [
+    {
+      "type": "alarm",
+      "x": 0,
+      "y": 0,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "alarms": [
+          "arn:aws:cloudwatch:us-east-1:975050315892:alarm:content-moderation-alarm"
+        ]
+      }
+    },
+    {
+      "type": "metric",
+      "x": 0,
+      "y": 6,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "metrics": [
+          [ "CatnipModeration", "ProfanityCount" ]
+        ],
+        "view": "timeSeries",
+        "region": "us-east-1",
+        "title": "Profanity Detection Count"
+      }
+    }
+  ]
+}
